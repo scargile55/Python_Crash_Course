@@ -1,3 +1,4 @@
+# Create a list and use 'for loop' to print the names
 animals = ['lion', 'cheetah', 'panther']
 
 for animal in animals:
