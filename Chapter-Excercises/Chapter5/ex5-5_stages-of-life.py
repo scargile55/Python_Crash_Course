@@ -1,5 +1,7 @@
+# Assign a number to variable
 age = 7
 
+# Test variable to see which if-elif-else statement passes
 if age < 2:
     print("You are a baby")
 elif 2 <= age < 4:

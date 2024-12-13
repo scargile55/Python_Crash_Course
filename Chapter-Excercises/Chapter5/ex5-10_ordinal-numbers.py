@@ -1,5 +1,7 @@
+# Assign numbers 1-9 to a variable
 numbers = list(range(1, 10))
 
+# For-loop prints the proper oridanl ending for each number
 for x in numbers:
     if x == 1:
         print(f"{x}st")
