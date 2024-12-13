@@ -1,3 +1,4 @@
+# Assign three cities in a dictionary as keys to a variable
 cities = {
     'Atlanta': {
         'country': 'usa',
@@ -16,6 +17,7 @@ cities = {
     }
 }
 
+# Print the name of each city and all the info stored about it
 for k,v in cities.items():
     print(f"{k}:")
     for info,notes in v.items():
