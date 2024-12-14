@@ -1,3 +1,4 @@
+# Assigns a list to a variable
 sandwich_orders = [
     'philly cheese',
     'pastrami',
@@ -11,8 +12,10 @@ sandwich_orders = [
 
 finished_sandwiches = []
 
+
 print("The Deli has ran out of pastrami.")
 print()
+# While-loop loops through sandwich_orders list and removes pastrami
 while 'pastrami' in sandwich_orders:
     sandwich_orders.remove('pastrami')
 

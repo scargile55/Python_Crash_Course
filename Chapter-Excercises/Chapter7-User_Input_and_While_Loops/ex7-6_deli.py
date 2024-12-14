@@ -1,3 +1,4 @@
+# Assigns a list to a variable
 sandwich_orders = [
     'philly cheese',
     'turkey',
@@ -6,8 +7,10 @@ sandwich_orders = [
     'shrimp',
 ]
 
+# Empty list
 finished_sandwiches = []
 
+# While-loop loops through sandwich)orders list and moves it to finished_sandwiches list
 while sandwich_orders:
     sandwich_order = sandwich_orders.pop()
     finished_sandwiches.append(sandwich_order)
