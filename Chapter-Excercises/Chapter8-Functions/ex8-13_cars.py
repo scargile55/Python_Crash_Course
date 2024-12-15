@@ -1,4 +1,5 @@
 def make_car(manufacturer, model, **random):
+    """Creates a dictionary with any arbituary arguments the user creates"""
     random['manufacturer'] = manufacturer
     random['model'] = model
     return random

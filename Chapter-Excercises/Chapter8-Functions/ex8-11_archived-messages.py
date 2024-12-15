@@ -13,6 +13,7 @@ def show_messages(queue, complete):
         print(f"Message: {message}")
         complete.append(message)
 
+# Makes no changes to the queue list
 show_messages(queue[:], complete)
 print()
 print(f"Queue: {queue}")
